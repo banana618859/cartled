@@ -1,0 +1,6 @@
+{
+  "telnetPort": 8808,
+  "tcpPort": 7600,
+  "logPath": "C:\\ledProject\\log",
+  "projectPath": "C:\\ledProject\\cartLED_gt.json"
+}

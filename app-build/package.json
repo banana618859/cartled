@@ -1,0 +1,23 @@
+{
+  "main": "index.html",
+  "name": "led_app",
+  "version": "0.0.1",
+  "devDependencies": {
+    "nw-builder": "^3.5.7"
+  },
+  "window": {
+    "title": "LED",
+    "icon": "./icon.png",
+    "position": "center",
+    "width": 1560,
+    "height": 950,
+    "toolbar": true,
+    "frame": true,
+    "resizable": true,
+    "min_width": 640,
+    "always_on_top": false
+  },
+  "dependencies": {
+    "tree-kill": "^1.2.2"
+  }
+}

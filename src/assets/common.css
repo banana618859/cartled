@@ -1,0 +1,62 @@
+/* 布局 */
+.posr{position: relative;}
+.small_yuan, .small_yuan_14{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #333;
+  background-color: #fff;
+}
+.small_yuan_14{width: 14px; height: 14px;}
+.bg_green{background-color: #67c23a;}
+.bg_red{background-color: #ff4d4d;}
+.myRed{ color: #ff4d4d;}
+
+/* 背景图片自适应 背景图片填满 */
+.mg_auto{margin-left: auto; margin-right: auto;}
+.img_cover{
+  width: 100%; height: 100%;
+  background-repeat: no-repeat; background-size: 100% 100%;
+}
+.img_center{
+  width: 100%; height: 100%;
+  background-position-x: center; background-position-y: center; background-repeat: no-repeat; background-size: cover;
+}
+
+/* 标题 */
+.title_30{height: 30px; line-height: 30px; background-color: #eee; padding: 0 5px;}
+
+.topImg{background-image: url(./images/top3.png);}
+.topImg2{background-image: url(./images/top4.png);}
+
+.rotate-180{transform: rotate(-180deg);}
+.rotate180{transform: rotate(180deg);}
+
+.alertBox{
+  width: 50%;
+}
+
+/* 针对element-ui的修改 */
+.myDialog{
+  text-align: left;
+}
+.myDialog .el-form-item__label{
+  background-color: #eee;
+}
+.myDialog .el-form-item__content{
+  padding-left: 10px;
+}
+.myDialog .el-dialog__body{
+  padding:10px 20px;
+}
+.smallBox {
+  background: #dedddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 10px 5px;
+}
+
+.notTip .el-form-item{
+  margin-bottom: 10px;
+}

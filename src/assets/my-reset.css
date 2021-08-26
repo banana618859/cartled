@@ -1,0 +1,73 @@
+/* reset */
+body, button, input, select, textarea {
+  font: 14px/1.5 微软雅黑,arial,Hiragino Sans GB,宋体,sans-serif;
+  color: #333;
+}
+*{box-sizing: border-box;padding: 0; margin: 0; list-style: none;}
+
+/* 浮动布局 */
+.fl{float: left;}
+.fr{float: right;}
+.over_auto{overflow: auto;}
+.over_hide{overflow: hidden;}
+
+/* 撑开页面 */
+.wrapBox,.wrapper{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.posr{position: relative;}
+/* 垂直居中 */
+.vCenter{display: flex;align-items: center; justify-content: center;}
+.center_box{
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* flex布局 */
+.flex1{flex: 1;}
+.flexBox-r{display: flex;}
+.flexBox-c{display: flex;flex-direction: column;height: 100%;}
+.over_auto{overflow: auto;}
+.over_hide{overflow: hidden;}
+
+/* 浮动布局 */
+.fl{float: left;}
+.fr{float: right;}
+
+
+/* 灰色盒子 */
+.grap-box{ border-radius: 5px; background-color: #ddd; padding: 10px;}
+
+/* 页面修饰 */
+.hand{cursor: pointer;}
+.myBlue{color: #409EFF;}
+.redColor,.myRed{color: #f73f3f;}
+.redColor:hover,.myRed:hover{color: #f73f3f;}
+.color_green{color: #67c23a;}
+
+.text-l{text-align: left;}
+.text-r{text-align: right;}
+.text-c{text-align: center;}
+
+.h30{
+  line-height: 30px;
+}
+
+/* 边框 */
+.border_red{border: 1px solid red;}
+.border_ddd{border: 1px solid #ddd;}
+.border_000{border: 1px solid #000;}
+.border_green{border: 1px solid green;}
+
+/* 字体 */
+.font_16{font-size: 16px;}
+
+

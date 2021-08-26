@@ -1,0 +1,26 @@
+[
+  {
+    "projectName": "N9K-C93180YC",
+    "X_POS_dut1": "10000",
+    "Z_POS_dut1": "200000",
+    "Z_POS_gap": "20000",
+    "LimitN_soft_X":"-9999999",
+    "LimitP_soft_X":"500000",
+    "LimitN_soft_Z":"-9999999",
+    "LimitP_soft_Z":"500000",
+    "CLAMP_L_limit":"5000",
+    "CLAMP_L_Vel":"2",
+    "CLAMP_R_limit":"5000",
+    "CLAMP_R_Vel":"2",
+    "Auto_Vel":"29",
+    "AUTO_Acc":"0.5",
+    "AUTO_Dec":"0.5",
+    "MAN_Vel":"30",
+    "MAN_Acc":"0.5",
+    "MAN_Dec":"0.5",
+    "HOME_Vel":"25",
+    "HOME_offset":"-2000",
+    "HOME_Acc":"1",
+    "HOME_Dec":"1"
+  }
+]
